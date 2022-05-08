@@ -6,4 +6,3 @@ Actual result: The button 'Sign In' is displaced after clicking on the page
 Priority:Low
 Environment:Windows 10, Google Chrome v100.0.4896.127
 
-
