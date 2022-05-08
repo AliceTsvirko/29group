@@ -1,0 +1,85 @@
+ILEF-202	Mark by touch	Touching and holding on the drawing brings up a dialog containing a box for entering the Mark Name and an icon/command for selecting Standards
+ILEF-202		See the menu in the landscape mode
+ILEF-202		If the standard command is not given, the user can touch the Mark name entry box and type in the Mark name
+ILEF-202		Enter any name, tap the Done keyboard button, see the mark is created and saved
+ILEF-202		Enter any name, tap the area out of the mark menu, see the mark is created and saved
+ILEF-202		Do not enter name and tap out of the field - no mark is created
+ILEF-202	Data Validation	If the Mark Name is blank, the mark is not created
+ILEF-202		If the Mark Name consists of spaces only, the mark is not created
+ILEF-202		See the mark name with java script encoding - it is not applied
+ILEF-202		See the mark name with HTML tags - they are not applied
+ILEF-202		See the mark name with multi-byte characters - they are correctly applied
+ILEF-202		See the mark name with special characters - they are correctly applied
+ILEF-202		See the mark name with character codes - they are not applied
+ILEF-202		See the mark name with maximal (100) long text - it is correctly applied
+ILEF-202		See the mark name with more than maximal (101) long text - more characters are not allowed
+ILEF-202		See the mark name with minimal (1) long text - it is correctly applied
+ILEF-202		Mark is displayed as blue rectangle
+ILEF-202		If the name is too long, the name is truncated by three dots
+ILEF-202		The rectangle can be moved to precise required position
+ILEF-202		Rotate the document, see the mark is displayed at the same position
+ILEF-202		Rotate an iPad, see the mark is displayed at the same position
+ILEF-202		Change the document scale, the mark is displayed at the same position
+ILEF-202		If Standards is selected, a list of standard actions/comments is displayed
+ILEF-202		5 most recent actions or comments (standard or non-standard) are displayed at the top of the list
+ILEF-202		If standard action / comment is selected, the Mark name is filled in with a sequential number only 
+ILEF-202		An action/comment is attached to the Mark
+ILEF-219	Mark by button	To add Mark user should tap the button at the top of the document page
+ILEF-219		Dialog box for entering the Mark Name appears at the center of the visible area of the document
+ILEF-202		See the menu in the landscape mode
+ILEF-202		Enter any name, tap the Done keyboard button, see the mark is created and saved
+ILEF-202		Enter any name, tap the area out of the mark menu, see the mark is created and saved
+ILEF-202		Do not enter name and tap out of the field - no mark is created
+ILEF-219		Once created, the mark can be dragged to its precise required position
+ILEF-202	Data Validation	If the Mark Name is blank, the mark is not created
+ILEF-202		If the Mark Name consists of spaces only, the mark is not created
+ILEF-202		See the mark name with java script encoding - it is not applied
+ILEF-202		See the mark name with HTML tags - they are not applied
+ILEF-202		See the mark name with multi-byte characters - they are correctly applied
+ILEF-202		See the mark name with special characters - they are correctly applied
+ILEF-202		See the mark name with character codes - they are not applied
+ILEF-202		See the mark name with maximal (100) long text - it is correctly applied
+ILEF-202		See the mark name with more than maximal (101) long text - more characters are not allowed
+ILEF-202		See the mark name with minimal (1) long text - it is correctly applied
+ILEF-219	Touch and Hold notification	If the mark was added with the help of the button, Touch and Hold message appears
+ILEF-219		If the mark was added with touch and hold, Touch and Hold message doesn't appear
+ILEF-219		"The following text is displayed in the message:
+""Mark is Available by Touch and Hold"""
+ILEF-219		The following buttons are displayed: OK and Don't Remind
+ILEF-219		If the OK button is tapped, the message is displayed again, if the user adds a mark using button
+ILEF-219		If Don't Remind is tapped, the message doesn't appear again, if the user adds a mark using button
+ILEF-221	Mark Menu	Mark Menu appears, if the existing mark is tapped and hold
+ILEF-221		If the area out of the drop-down menu is tapped, mark menu is closed
+ILEF-221		If any button out of the drop-down menu area is tapped, mark menu is closed
+ILEF-221		See the menu in the landscape mode
+ILEF-221		"The following items are displayed in the menu:
+Delete, Comment, Report"
+ILEF-221		If several marks are placed one over another, the menu is opened for the upper mark (visible to user)
+ILEF-221	Delete	Delete option is available for mark creator
+ILEF-221		Delete option is not available for the user who is not mark creator
+ILEF-221		Delete option is available, if there are no actions or comments associated with it
+ILEF-221		Delete option is not available, if there are actions or comments associated with it
+ILEF-221		If the Delete option is tapped, a confirmation message appears
+ILEF-221		The content of the message is the following: "Delete mark?"
+ILEF-221		Delete and Cancel options are displayed on the message
+ILEF-221		Delete option is red
+ILEF-221		If Cancel is selected, mark is not deleted
+ILEF-221		If Delete is selected, the mark is deleted
+ILEF-221	Comment	If the Comment option is tapped, Add Comment page of the corresponding mark is opened
+ILEF-221		The user is able to add a comment on the Add Comment page
+ILEF-221		The user is able to add an action on the Add Comment page
+ILEF-221	Report	If the Report option is tapped, the corresponding Mark Dashboard is opened
+Mark Mark Inspector		
+ILEF-235	Mark Inspector	Mark Inspector is opened after touching corresponding mark on the Document View page
+ILEF-235		Mark inspector page is opened in the View mode by default
+ILEF-235		There is a button named as Document Name on the top left
+ILEF-235		Tap the button, corresponding Document View page is opened
+ILEF-235	Data Validation	See the document name with java script encoding - it is not applied
+ILEF-235		See the document name with HTML tags - they are not applied
+ILEF-235		See the document name with multi-byte characters - they are correctly applied
+ILEF-235		See the document name with special characters - they are correctly applied
+ILEF-235		See the document name with character codes - they are not applied
+ILEF-235		See the document name with maximal (256) long text - it is correctly applied
+ILEF-235		See the document name with more than maximal (257) long text - more characters are not allowed
+ILEF-235		See the document name with minimal (1) long text - it is correctly applied
+
